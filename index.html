@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 增加 1.下拉式選單功能-->
+<!-- 增加 2.Nivo Banner輪播-->
+<!-- 增加 3.LightBox-->
+<!-- 增加 4.top 效果-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="最後一版PSD練習">
+    <meta name="keywords" content="PSD,六角學院">
+
+    <meta property="og:title" content="最後一版PSD練習標題">
+    <meta property="og:description" content="最後一版PSD練習描述">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.google.com.tw">
+    <meta property="og:image" content="img/Icon.png">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/cssReset.css">
+    <!--lightbox-->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!--Nivo Slider-->
+    <link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/all.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="warp">
+        <div class="header">
+            <ul>
+                <li>
+                    <a class="twitter" href="#"><img src="img/twitter_icon.gif" alt="twitter">追隨我們</a>
+                </li>
+                <li class="separateRight">
+                    <a class="fb" href="#"><img src="img/FB_ICON.gif" alt="FB">粉絲團</a>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix_all"></div>
+        <div class="main">
+            <div class="top">
+                <div class="menu"><img src="img/Icon.png" alt="">
+                    <ul class="menu_top">
+                        <li>
+                            <a href="#" class="jq_dropdown"><img src="img/menu_home.png" alt="首頁"></a>
+                            <ul class="menu_detail jq_dropdown_open">
+                                <li>
+                                    <a href="#"><img src="img/menu_home.png" alt="首頁1"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/menu_home.png" alt="首頁2"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="jq_dropdown"><img src="img/menu_product.png" alt="產品介紹"></a>
+                            <ul class="menu_detail jq_dropdown_open">
+                                <li>
+                                    <a href="#"><img src="img/menu_product.png" alt="產品介紹1"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/menu_product.png" alt="產品介紹2"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="jq_dropdown"><img src="img/menu_contact.png" alt="聯絡我們"></a>
+                            <ul class="menu_detail jq_dropdown_open">
+                                <li>
+                                    <a href="#"><img src="img/menu_contact.png" alt="聯絡我們1"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/menu_contact.png" alt="聯絡我們2"></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix_all"></div>
+                <!--
+                <div class="prod_img">
+                    <img src="img/top_right.jpg" alt="">
+                    <H1>六角學院<br> 讓你奠定良好的前端基礎</H1>
+                </div>
+                -->
+                <div class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <a href="#"><img src="img/top.jpg" data-thumb="img/top.jpg" alt="" /></a>
+                        <img src="img/toystory.jpg" data-thumb="img/toystory.jpg" alt="" />
+                        <img src="img/up.jpg" data-thumb="img/up.jpg" alt="" />
+                        <img src="img/walle.jpg" data-thumb="img/walle.jpg" alt="" />
+                        <img src="img/nemo.jpg" data-thumb="img/nemo.jpg" alt="" />
+                    </div>
+                    <div id="htmlcaption" class="nivo-html-caption">
+                        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                    </div>
+                </div>
+            </div>
+            <div class="prod_content">
+                <ul>
+                    <li>
+                        <a class="jq_light_box_link" href="img/Html5.jpg" data-lightbox="jq_light_box_set" data-title="Html5 基礎教學">
+                            <img class="jq_light_box_image" src="img/Html5.jpg" alt="" /></a>
+
+                        <H2>Html5 基礎教學</H2>
+                        <H3>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透 過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</H3>
+                    </li>
+                    <li>
+                        <a class="jq_light_box_link" href="img/ResponsiveWebDesign.jpg" data-lightbox="jq_light_box_set" data-title="響應式網站設計">
+                            <img class="jq_light_box_image" src="img/ResponsiveWebDesign.jpg" alt="" /></a>
+                        <H2>響應式網站設計</H2>
+                        <H3>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備 的。六角學院將會提供業界響應式開發 方法，讓學生瞭解行動版開發技巧。
+                        </H3>
+                    </li>
+                    <li>
+                        <a class="jq_light_box_link" href="img/Jquery.jpg" data-lightbox="jq_light_box_set" data-title="jQuery 實戰教學">
+                            <img class="jq_light_box_image" src="img/Jquery.jpg" alt="" /></a>
+                        <H2>jQuery 實戰教學</H2>
+                        <H3>本課程有以下特色</H3>
+                        <ul class="prod_content_text_ul">
+                            <li class="prod_content_text_li">瞭解變數的使用方法</li>
+                            <li class="prod_content_text_li">學習並操作DOM</li>
+                            <li class="prod_content_text_li">瞭解基本數學運算方法</li>
+                            <li class="prod_content_text_li">套件的操作及運用</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix_all"></div>
+            <div class="prod_list">
+                <H2>線上及實體課程的差異</H2>
+                <table>
+                    <tr>
+                        <th>項目</th>
+                        <th>Hex School線上課程</th>
+                        <th>一般線上課程</th>
+                        <th>實體課程</th>
+                    </tr>
+                    <tr>
+                        <td>費用</td>
+                        <td class="list_better">較低</td>
+                        <td class="list_better">較低</td>
+                        <td>較高</td>
+                    </tr>
+                    <tr>
+                        <td>學習效果</td>
+                        <td>一般</td>
+                        <td class="list_better">較低</td>
+                        <td class="list_better">很好</td>
+                    </tr>
+                    <tr>
+                        <td>Code review</td>
+                        <td class="list_better">有</td>
+                        <td>無</td>
+                        <td>不一定</td>
+                    </tr>
+                    <tr>
+                        <td>課程更新速度</td>
+                        <td class="list_better">普通</td>
+                        <td class="list_better">普通</td>
+                        <td>較慢</td>
+                    </tr>
+                    <tr>
+                        <td>多次複習</td>
+                        <td class="list_better">可</td>
+                        <td>可</td>
+                        <td>不可</td>
+                    </tr>
+                    <tr>
+                        <td>字幕</td>
+                        <td class="list_better">有</td>
+                        <td>不一定</td>
+                        <td>板書</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="prod_form">
+                <form action="index.html">
+                    <H2>
+                        對我們課程有興趣嗎?<br> 歡迎留下您的資料
+                    </H2>
+                    <textarea class="prod_form_info" name="" id="" cols="60" rows="15"></textarea>
+                    <div class="prod_form_info_detail">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" class="input_text" value="六角講師" placeholder="請輸入姓名">
+                        <label for="tel">電話</label>
+
+                        <input type="text" id="tel" class="input_text" value="0912345678" placeholder="請輸入電話">
+                        <label for="email">信箱</label>
+                        <input type="text" id="email" class="input_text" value="hexschool@mail.com" placeholder="請輸入信箱">
+                        <input type="submit" class="btn" value="送出">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer ">
+            <span class="bottom_icon"><img src="img/bottom_icon.png"></span>
+            <span class="contact_info">
+                        聯絡我們 : <span class="contact_text ">hexschool@gamil.com</span> <br> 電話 : <span class="contact_text ">0999123456</span>
+            </span>
+
+        </div>
+    </div>
+
+    <!--回頂部按鈕-->
+    <a href="#" class="scrollToTop"><img class="scrollToTop_img" src="img/arrow_top.png"><br>回到頂端</a>
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</body>
+
+</html>

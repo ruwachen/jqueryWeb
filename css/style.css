@@ -1,0 +1,308 @@
+    .warp {
+        width: 1000px;
+        margin: 0 auto;
+        font-family: Microsoft JhengHei;
+        background: #F6F6F6;
+    }
+    /* header */
+    
+    .header a {
+        vertical-align: middle;
+        text-decoration: none;
+    }
+    
+    .header li {
+        float: right;
+        width: 90px;
+        padding-left: 15px;
+    }
+    
+    .separateRight {
+        border-right: 1px solid #000000;
+    }
+    
+    .header img {
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    
+    .header .fb {
+        color: #4460A0;
+    }
+    
+    .header .twitter {
+        color: #00AAEC;
+    }
+    
+    .main {
+        background: #FFFFFF;
+        height: 100%;
+    }
+    /* menu */
+    
+    .menu {
+        height: 50px;
+    }
+    
+    .menu_top {
+        float: right;
+    }
+    
+    .menu_top ul {
+        display: none;
+    }
+    
+    .menu li {
+        float: left;
+        width: 80px;
+        padding: 10px 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: #0FCF9F;
+        display: block;
+        /**background-color: black;**/
+    }
+    
+    .menu_unline {
+        border-style: solid;
+        border-color: #0FCF9F;
+        border-bottom-width: 3px;
+    }
+    
+    .menu_detail li {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .clearfix_all {
+        clear: both;
+    }
+    
+    .prod_img {
+        width: 1000px;
+        height: 400px;
+        float: left;
+        background-image: url("../img/top_background.jpg");
+        background-repeat: round;
+    }
+    
+    .prod_img img {
+        height: 400px;
+        float: right;
+    }
+    
+    .prod_img H1 {
+        padding: 150px 10px 10px 10px;
+        float: left;
+        color: #FFF;
+        font-size: 36px;
+        vertical-align: middle;
+        line-height: 50px;
+    }
+    
+    .prod_img p {
+        margin-bottom: 10px;
+    }
+    /* prod_content */
+    
+    .prod_content {
+        /*background-color: #E97BA7;*/
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .prod_content li {
+        text-align: center;
+        float: left;
+        width: 290px;
+        height: 280px;
+        border: 1px solid #DBDBDB;
+        margin: 10px 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: #DBDBDB 0px 2px;
+    }
+    
+    .prod_content H2 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .prod_content H3 {
+        font-size: 16px;
+        margin: 5px 5px;
+        text-align: justify;
+        line-height: 20px;
+    }
+    
+    .prod_content .prod_content_text_ul {
+        list-style: inside;
+        margin: 2px;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    
+    .prod_content .prod_content_text_ul .prod_content_text_li {
+        margin: 2px;
+        height: 14px;
+        padding-left: 5px;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        text-align: left;
+        box-shadow: 0px 0px;
+    }
+    /* prod_list */
+    
+    .prod_list H2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .main .prod_list table {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    .main .prod_list table tr {
+        border-top: 1px solid #DDDDDD;
+        border-bottom: 1px solid #DDDDDD;
+    }
+    
+    .main .prod_list table th {
+        width: 25%;
+        height: 30px;
+        vertical-align: middle;
+        background-color: #F7F7F7;
+        text-align: left;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    
+    .main .prod_list table td {
+        width: 25%;
+        height: 30px;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .main .prod_list .list_better {
+        color: #42B392;
+    }
+    /* prod_form */
+    
+    .prod_form {
+        background-image: url(../img/form_background.jpg);
+        background-repeat: repeat-x;
+        height: 380px;
+    }
+    
+    .prod_form H2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    
+    .prod_form_info {
+        float: left;
+        margin-left: 25px;
+    }
+    
+    .prod_form_info_detail {
+        margin-left: 52%;
+        color: #FFFFFF;
+    }
+    
+    .prod_form_info_detail input {
+        padding-left: 10px;
+        height: 20px;
+        width: 450px;
+        border-radius: 3%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .prod_form_info_detail .btn {
+        margin-top: 20px;
+        margin-left: 82%;
+        width: 70px;
+        height: 30px;
+        background-color: #00CC99;
+        color: #FFFFFF;
+        border: #00CC99;
+        border-radius: 3%;
+    }
+    
+    .btn:hover {
+        cursor: pointer;
+    }
+    /* footer */
+    
+    .footer {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .contact_info {
+        float: right;
+        text-align: left;
+    }
+    
+    .contact_text {
+        color: #E97BA7;
+    }
+    
+    #dev7link {
+        /*position: absolute;*/
+        top: 0;
+        left: 50px;
+        background: url(img/top.jpg) no-repeat;
+        width: 60px;
+        height: 67px;
+        border: 0;
+        display: block;
+        text-indent: -9999px;
+    }
+    
+    .scrollToTop {
+        padding: 10px;
+        text-align: center;
+        background: WhiteSmoke;
+        font-weight: bold;
+        color: #555;
+        text-decoration: none;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        display: none;
+    }
+    
+    .scrollToTop:hover {
+        background: SkyBlue;
+        text-decoration: none;
+    }
+    
+    .scrollToTop_img {
+        height: 30px;
+        width: 30px;
+    }
